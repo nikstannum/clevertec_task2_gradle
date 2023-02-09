@@ -6,10 +6,12 @@ group 'ru.clevertec'
 version '1.0.0'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
+    implementation 'ru.clevertec:StringUtils:1.3.5'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 }

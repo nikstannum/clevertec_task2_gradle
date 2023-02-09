@@ -2,6 +2,7 @@ package ru.clevertec;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        boolean result = Utils.isAllPositiveNumbers("12", "79");
+        System.out.println("Are 12 and 79 positive numbers? It's " + result);
     }
 }
