@@ -9,7 +9,3 @@ build
 .classpath
 .project
 .factorypath
-
-
-# Git
-.gitattributes
